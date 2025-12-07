@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "imdb-clone-api-9b9s.onrender.com",
-    "imdb-clone-api.vercel.app",
 ]
 
 
@@ -162,7 +161,7 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://imdb-clone-api.vercel.app/",
+   "imdb-clone-i4xe3np8s-varshiths-projects-39ccb172.vercel.app",
 ]
 CORS_ALLOW_CREDENTIALS = True
 
