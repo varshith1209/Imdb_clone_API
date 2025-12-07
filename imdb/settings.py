@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "imdb-clone-api-9b9s.onrender.com",
+    "imdb-clone-api.vercel.app",
 ]
 
 
