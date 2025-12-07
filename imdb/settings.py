@@ -161,7 +161,7 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-   "imdb-clone-i4xe3np8s-varshiths-projects-39ccb172.vercel.app",
+   "https://imdb-clone-api.vercel.app",
 ]
 CORS_ALLOW_CREDENTIALS = True
 
