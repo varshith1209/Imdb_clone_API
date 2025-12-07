@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-2qtasf8^gmddwobyu_p&h_2_f1@^#))nrchy*adc%ev+p0!43s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "https://imdb-clone-api-9b9s.onrender.com"
+]
 
 
 # Application definition
