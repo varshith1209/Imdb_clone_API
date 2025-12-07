@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2qtasf8^gmddwobyu_p&h_2_f1@^#))nrchy*adc%ev+p0!43s
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'imdb-clone-api-9b9s.onrender.com'
+    'https://imdb-clone-api-9b9s.onrender.com',
 ]
 
 
