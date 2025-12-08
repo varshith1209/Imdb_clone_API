@@ -15,21 +15,19 @@ function App() {
   return (
     <TooltipProvider delayDuration={200}>
       <BrowserRouter>
-  <ScrollToTop />
-  <Routes>
-    <Route element={<AppLayout />}>
-      <Route index element={<Landing />} />
-      <Route path="login" element={<Login />} />
-      <Route path="register" element={<Register />} />
-      <Route element={<ProtectedRoute />}>
-        <Route path="watchlist" element={<Watchlist />} />
-        <Route path="watchlist/:id" element={<Detail />} />
-        <Route path="watchlist/:id/reviews" element={<Reviews />} />
-      </Route>
-    </Route>
-  </Routes>
-</BrowserRouter>
-
+        <Routes>
+          <Route element={<AppLayout />}>
+            <Route index element={<Landing />} />
+            <Route path="login" element={<Login />} />
+            <Route path="register" element={<Register />} />
+            <Route element={<ProtectedRoute />}>
+              <Route path="watchlist" element={<Watchlist />} />
+              <Route path="watchlist/:id" element={<Detail />} />
+              <Route path="watchlist/:id/reviews" element={<Reviews />} />
+            </Route>
+          </Route>
+        </Routes>
+      </BrowserRouter>
       <Toaster richColors position="top-right" />
     </TooltipProvider>
   );
